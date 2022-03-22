@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-lda-master.flake = false;
+  inputs.src-lda-master.ref   = "refs/heads/master";
   inputs.src-lda-master.owner = "andreaferretti";
-  inputs.src-lda-master.ref   = "master";
   inputs.src-lda-master.repo  = "lda";
   inputs.src-lda-master.type  = "github";
   
