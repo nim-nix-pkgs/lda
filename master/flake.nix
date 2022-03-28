@@ -11,6 +11,7 @@
   inputs.src-lda-master.ref   = "refs/heads/master";
   inputs.src-lda-master.owner = "andreaferretti";
   inputs.src-lda-master.repo  = "lda";
+  inputs.src-lda-master.dir   = "";
   inputs.src-lda-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
